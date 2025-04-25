@@ -8,12 +8,27 @@ To write a program to predict the type of species of the Iris flower using the S
 
 ## Algorithm :
 
-1.Import Necessary Libraries and Load Data 
-2.Split Dataset into Training and Testing Sets
-3.Train the Model Using Stochastic Gradient Descent (SGD)
-4.Make Predictions and Evaluate Accuracy 
-5.Generate Confusion Matrix
+1.Import Necessary Libraries and Load iris Data set
 
+2.Create a DataFrame from the Dataset
+
+3.Add Target Labels to the DataFrame
+
+4.Split Data into Features (X) and Target (y)
+
+5.Split Data into Training and Testing Sets
+
+6.Initialize the SGDClassifier Model
+
+7.Train the Model on Training Data
+
+8.Make Predictions on Test Data
+
+9.Evaluate Accuracy of Predictions
+
+10.Generate and Display Confusion Matrix
+
+11.Generate and Display Classification Report
 
 ## Program:
 ```
@@ -59,12 +74,21 @@ print(classification_report1)
 ```
 ## Output:
 
+## df.head()
+
 ![Screenshot 2025-03-29 190959](https://github.com/user-attachments/assets/b863dec5-3cf0-4e21-aa00-68a15d5f8556)
 
-![Screenshot 2025-03-29 191006](https://github.com/user-attachments/assets/1097d428-7f41-4fc4-8a5c-d5961e3e11da)
+## Accuracy
 
-![Screenshot 2025-03-29 191012](https://github.com/user-attachments/assets/fef2e7ae-fac2-43bc-a4bd-c2cd52bdb918)
+![image](https://github.com/user-attachments/assets/f82329f0-ed12-4bf3-b89e-8669aa2c2003)
 
+## Confusion matrix
+
+![image](https://github.com/user-attachments/assets/0f5f769e-c3d2-41e4-a145-16bb1645633d)
+
+## Classification report
+
+![image](https://github.com/user-attachments/assets/73ed52ca-a9f2-4a32-a6b0-a0eab73bfc00)
 
 
 ## Result:
